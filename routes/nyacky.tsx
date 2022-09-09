@@ -37,7 +37,7 @@ export default function Nyacky({ data }: PageProps<RandomImage | null>) {
                 source_url={data.source_url}
             />
             <br></br>
-            <div class="w-1/3 flex justify-around">
+            <div class="flex">
                 <LinkButton
                     text="Mwore?"
                     link="/nyacky"
