@@ -1,11 +1,2 @@
-# fresh project
-
-### Usage
-
-Start the project:
-
-```
-deno task start
-```
-
-This will watch the project directory and restart as necessary.
+# Cool Catboys
+A Deno Fresh app to enjoy some catboy pictures
