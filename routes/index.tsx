@@ -22,7 +22,7 @@ export default function Home() {
 				<a href="https://fresh.deno.dev" target="_blank" rel="noopener noreferrer">
 					<img width="197" height="37" src="https://fresh.deno.dev/fresh-badge-dark.svg" alt="Made with Fresh" />
 				</a>
-				<a class="flex items-center justify-center" href="https://github.com" target="_blank" rel="noopener noreferrer">
+				<a class="flex items-center justify-center" href="https://github.com/CTMarin/cool-catboy" target="_blank" rel="noopener noreferrer">
 					<img width="37" height="37" src="github-icon.png" alt="Link to source code on Github" />
 				</a>				
 			</footer>
