@@ -1,21 +1,23 @@
-/** @jsx h */
-import { h } from "preact";
-import { tw } from "@twind";
-import Counter from "../islands/Counter.tsx";
+import Header from "../components/Header.tsx";
+import { PageProps } from "$fresh/server.ts";
+import LinkButton from "../components/LinkButton.tsx";
 
 export default function Home() {
-  return (
-    <div class={tw`p-4 mx-auto max-w-screen-md`}>
-      <img
-        src="/logo.svg"
-        height="100px"
-        alt="the fresh logo: a sliced lemon dripping with juice"
-      />
-      <p class={tw`my-6`}>
-        Welcome to `fresh`. Try updating this message in the ./routes/index.tsx
-        file, and refresh.
-      </p>
-      <Counter start={3} />
-    </div>
-  );
+    return (
+        <div class="h-full">
+            <Header/>
+            <main class="flex flex-col h-[calc(100%-4rem)] justify-center items-center">
+                <section class="flex flex-col items-center">
+                    <h2 
+                        class="text-3xl font-bold mb-8">
+                        Feeling <span class="text-purple-500">nyacky</span>?
+                    </h2>
+                    <LinkButton 
+						text="meow"
+						link="/nyacky"
+					/>
+                </section>
+            </main>
+        </div>
+    );
 }
